@@ -36,12 +36,13 @@ namespace CoffeeShop
             if (string.IsNullOrWhiteSpace(textBox3.Text))
             {
                 MessageBox.Show("You must enter CVV!");
-            } else
+            }
+            else
             {
                 MessageBox.Show("Thanks for your order!");
             }
 
-                
+
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -51,12 +52,12 @@ namespace CoffeeShop
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            textBox1.MaxLength = 11;
+            textBox1.MaxLength = 16;
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            textBox1.MaxLength = 5;
+            textBox2.MaxLength = 5;
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
