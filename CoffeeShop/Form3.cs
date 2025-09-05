@@ -56,7 +56,7 @@ namespace CoffeeShop
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            textBox1.MaxLength = 5;
+            textBox2.MaxLength = 5;
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
